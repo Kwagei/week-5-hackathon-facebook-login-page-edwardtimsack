@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(177, 202, 202);
+    background-color: rgb(240, 237, 233);
 }
 .boss{
     display: flex;
@@ -8,13 +8,14 @@ body{
 .left{
     width: 600px;
     height: 0px;
-    margin-top: 50px;
+    margin-top: 180px;
     
 }
 .right{
     width: 600px;
     height: 330px;
-   margin-top: 5px;
+   margin-top: 95px;
+   margin-left: 240px;
 }
 .text{
     width: 380px;
@@ -27,18 +28,20 @@ body{
 .text h1{
     padding-top: 40px;
     color: blue;
+    font-size: 60px;
 }
 .paragraph{
     width: 360px;
     height: 80px;
     margin-left: 220px;
+    margin-top: 20px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
 }
 form{
     width: 509px;
-    height: 370px;
+    height: 420px;
     background-color: white;
     text-align: center;
     margin-top: 60px;
@@ -47,14 +50,14 @@ form{
 form input[type="text"] {
     width: 450px;
     height: 50px;
-    margin-top: 10px;
+    margin-top: 30px;
     border-radius: 5px;
     font-size: 20px;
 }
 .button1{
-    width: 456px;
+    width: 450px;
     height: 50px;
-    margin-top: 8px;
+    margin-top: 15px;
     color: white;
     background-color: blue;
     border-radius: 5px;
@@ -88,4 +91,16 @@ margin-top: 50px;
 .bottom{
     margin-top: 20px;
     margin-left: 100px;
-}   
+}  
+.bottom a{
+    text-decoration: solid;
+    color: black;
+} 
+.below{
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.below a{
+    text-decoration: solid;
+}
